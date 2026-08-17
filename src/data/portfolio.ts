@@ -119,14 +119,14 @@ export const projects: Project[] = [
     liveUrl: '#',
   },
   {
-    id: 2,
-    name: '[Project Name]',
-    description: '[Add project description here]',
-    technologies: ['Python', 'SQL', 'Firebase'],
-    image: '[PROJECT SCREENSHOT 2]',
-    githubUrl: '#',
-    liveUrl: '#',
-  },
+  id: 2,
+  name: 'ShopNest',
+  description: 'A modern e-commerce web application with product discovery, categories, deals, search, and a responsive user interface.',
+  technologies: ['React', 'CSS', 'JavaScript'],
+  image: '/images/shopnest.png',
+  githubUrl: 'https://github.com/Priyanshu9-bit/ShopNest',
+  liveUrl: 'https://shop-nest-swart.vercel.app/',
+},
   {
     id: 3,
     name: '[Project Name]',
@@ -154,18 +154,18 @@ export type Internship = {
 };
 
 export const internships: Internship[] = [
+{
+  title: 'EIS — Web Development Internship',
+  description:
+    'Web development internship focused on building and understanding modern web technologies and practical development workflows.',
+  image: '/images/web-development-internship.png',
+},
   {
-    title: 'EIS — Web Development Internship',
-    description:
-      'Web development internship focused on building and understanding modern web technologies and practical development workflows.',
-    image: '[INTERNSHIP CERTIFICATE / PHOTO]',
-  },
-  {
-    title: 'Python Development Internship',
-    description:
-      'Python development internship focused on programming, problem solving, and practical software development.',
-    image: '[PYTHON INTERNSHIP CERTIFICATE / PHOTO]',
-  },
+  title: 'Python Development Internship',
+  description:
+    'Python development internship focused on programming, problem-solving, and practical development workflows.',
+  image: '/images/python-development-internship.png',
+},
 ];
 
 export const achievement = {

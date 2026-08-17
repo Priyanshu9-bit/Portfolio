@@ -46,11 +46,11 @@ function TiltCard({ project }: { project: (typeof projects)[number] }) {
         className="group gradient-border relative overflow-hidden rounded-3xl glass p-5 transition-shadow hover:shadow-2xl hover:shadow-accent-violet/10"
       >
         <div className="overflow-hidden rounded-2xl" style={{ transform: 'translateZ(40px)' }}>
-          <Placeholder
-            label={project.image}
-            aspect="aspect-[16/10]"
-            className="transition-transform duration-500 group-hover:scale-[1.03]"
-          />
+          <img
+  src={project.image}
+  alt={project.name}
+  className="w-full aspect-[16/10] object-cover transition-transform duration-500 group-hover:scale-105"
+/>
         </div>
 
         <div className="p-3 pt-5" style={{ transform: 'translateZ(30px)' }}>
