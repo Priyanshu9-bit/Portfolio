@@ -172,7 +172,7 @@ export const achievement = {
   title: 'GDG Hackathon Winner — 2025',
   description:
     'Proud to be a winner of the GDG Hackathon 2025, where I participated in a competitive environment focused on innovation, teamwork, and building technology-driven solutions.',
-  image: '[HACKATHON CERTIFICATE / PHOTO]',
+  image: '/images/techsprint-2026.jpeg',
 };
 
 export type Certificate = {
